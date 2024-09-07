@@ -16,14 +16,13 @@ function Navbar() {
         <a href="/">About</a>
         <a href="/">Contact</a>
         <a href="/">Agents</a>
+        <a href="/1">Trending</a>
+        <a href="/list">All</a>
       </div>
       <div className="right">
         {user ? (
           <div className="user">
-            <img
-              src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-            />
+            <img src="arnab.png" alt="" />
             <span>Arnab Dev</span>
             <Link to="/profile" className="profile">
               <div className="notification">3</div>

@@ -7,7 +7,7 @@ function HomePage() {
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">
-            Find trusted and verified workers in Bangladesh.
+            Find trusted and verified domestic workers in Bangladesh.
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
