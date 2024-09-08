@@ -19,15 +19,15 @@ function HomePage() {
           <div className="boxes">
             <div className="box">
               <h1>16+</h1>
-              <h2>Years of Experience</h2>
+              <h2>Locations</h2>
             </div>
             <div className="box">
               <h1>200</h1>
               <h2>Award Gained</h2>
             </div>
             <div className="box">
-              <h1>2000+</h1>
-              <h2>Property Ready</h2>
+              <h1>500+</h1>
+              <h2>Satisfied clients</h2>
             </div>
           </div>
         </div>

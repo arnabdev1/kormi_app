@@ -12,8 +12,8 @@ function Navbar() {
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
         </a>
-        {/* <a href="/">Home</a> */}
         <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
         <Link to="/1">Deal of the day</Link>
         <Link to="/list">All</Link>
       </div>
@@ -43,12 +43,11 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <Link to="/">Home</Link>
+          <Link to="/login">Login</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/1">Deal of the day</Link>
+          <Link to="/list">All</Link>
         </div>
       </div>
     </nav>

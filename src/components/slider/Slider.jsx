@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./slider.scss";
-
+import { IoMdCloseCircle } from "react-icons/io";
 function Slider({ images }) {
   const [imageIndex, setImageIndex] = useState(null);
 
@@ -34,7 +34,7 @@ function Slider({ images }) {
             <img src="/arrow.png" className="right" alt="" />
           </div>
           <div className="close" onClick={() => setImageIndex(null)}>
-            X
+            <IoMdCloseCircle/>
           </div>
         </div>
       )}
