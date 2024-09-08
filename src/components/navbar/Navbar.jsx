@@ -13,11 +13,9 @@ function Navbar() {
           <img src="/logo.png" alt="" />
         </a>
         {/* <a href="/">Home</a> */}
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
-        <a href="/1">Trending</a>
-        <a href="/list">All</a>
+        <Link to="/login">Login</Link>
+        <Link to="/1">Deal of the day</Link>
+        <Link to="/list">All</Link>
       </div>
       <div className="right">
         {user ? (

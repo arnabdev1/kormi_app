@@ -62,8 +62,7 @@
             }
             .price {
               padding: 5px;
-              background-color: #46B19F;
-              opacity: 80%;
+              background-color: #b0d6d0;
               border-radius: 5px;
               width: max-content;
               font-size: 20px;
@@ -78,8 +77,7 @@
             gap: 20px;
             padding: 0px 50px;
             border-radius: 10px;
-            background-color: #46B19F;
-            opacity: 80%;
+            background-color: #b0d6d0;
             font-weight: 600;
 
             @include sm {
@@ -99,13 +97,15 @@
           margin-top: 50px;
           color: #555;
           line-height: 20px;
+          margin-bottom: 20px;
         }
       }
     }
   }
   .features {
     flex: 2;
-    background-color: #fcf5f3;
+    
+    background-color: #b0d6d0;
     height: 100%;
     overflow-y: scroll;
 
@@ -114,6 +114,7 @@
       height: max-content;
       margin-bottom: 50px;
     }
+    
 
     .wrapper {
       padding: 0px 20px;
@@ -142,7 +143,9 @@
         gap: 10px;
 
         img {
-          background-color: rgba(254, 205, 81, 0.209);
+          background-color: #b0d6d0;
+          border-radius: 4px;
+          padding: 4px;
         }
 
         .featureText {
@@ -195,6 +198,8 @@
       }
 
       .buttons {
+
+        margin-bottom: 20px;
         display: flex;
         justify-content: space-between;
 
@@ -204,7 +209,7 @@
           align-items: center;
           gap: 5px;
           background-color: white;
-          border: 1px solid #fece51;
+          border: 1px solid #46B19F;
           border-radius: 5px;
           cursor: pointer;
 

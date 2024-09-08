@@ -2,6 +2,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #b0d6d0;
 
   .messages {
     flex: 1;
@@ -44,7 +45,7 @@
     justify-content: space-between;
 
     .top {
-      background-color: #f7c14b85;
+      background-color: #b0d6d0;
       padding: 20px;
       font-weight: bold;
       display: flex;
@@ -85,29 +86,31 @@
 
         span{
           font-size: 12px;
-          background-color: #f7c14b39;
-          padding: 2px;
+          background-color: #b0d6d0;
+          padding: 4px;
           border-radius: 5px;
         }
       }
     }
     .bottom {
-      border-top: 2px solid #f7c14b85;
+      border-top: 2px solid #b0d6d0;
       height: 60px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+        background-color: #b0d6d0;
 
       textarea{
         flex:3;
         height: 100%;
-        border: none;
         padding: 20px;
+        border-radius: 20px;
+        border-color:  #b0d6d0;;
       }
 
       button{
         flex:1;
-        background-color: #f7c14b85;
+        background-color: #b0d6d0;
         height: 100%;
         border: none;
         cursor: pointer;
