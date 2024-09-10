@@ -14,8 +14,8 @@ function Navbar() {
         </a>
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
-        <Link to="/1">Deal of the day</Link>
-        <Link to="/list">All</Link>
+        {/* <Link to="/1">Deal of the day</Link>
+        <Link to="/list">All</Link> */}
       </div>
       <div className="right">
         {user ? (

@@ -7,7 +7,6 @@
   .listContainer {
     flex: 3;
     height: 100%;
-
     .wrapper{
       height: 100%;
       padding-right: 50px;
@@ -21,7 +20,7 @@
   .mapContainer {
     flex: 2;
     height: 100%;
-    background-color: #fcf5f3;
+    background-color: #b0d6d0;
 
     @include md{
       display: none;
