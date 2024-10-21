@@ -1,6 +1,6 @@
 # Kormi
 
-![Kormi Logo](/public/logo.png) <!-- Update with your logo image path -->
+![Kormi Logo](/public/logo.png) 
 
 ## Overview
 
