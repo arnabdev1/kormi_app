@@ -30,3 +30,38 @@ To run the project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/kormi.git
+
+2. **Navigate to the project directory:**:
+   ```bash
+   cd kormi
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+
+4. **Start the development server**:
+   ```bash
+   npm start
+4. **Open your browser and go to http://localhost:3000 to view the application.**
+
+## Current Progress
+
+The frontend is mostly complete, but the backend is still under development. Contributions and suggestions for enhancements are welcome!
+
+## Future Work
+
+- Implement backend functionality to manage user authentication and data storage.
+- Enhance the verification process with more robust methods.
+- Integrate a payment system for hiring domestic workers.
+
+## Contributing
+
+Contributions are welcome! Please feel free to email me: official.arnabdev@gmail.com
+
+## License
+
+This project is open-source and available for use. There is no formal license; please use it as you see fit while respecting the work of the contributors.
+
+## Acknowledgments
+
+- Inspired by the need for trustworthy domestic work solutions.
