@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .login {
   height: 100%;
   display: flex;
@@ -49,6 +51,9 @@
   }
 
   .imgContainer {
+    @include md {
+          display: none;
+        }
     flex: 2;
     background-color: #b0d6d0;
     display: flex;

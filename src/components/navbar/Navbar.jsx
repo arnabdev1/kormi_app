@@ -14,8 +14,8 @@ function Navbar() {
         </a>
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
-        {/* <Link to="/1">Deal of the day</Link>
-        <Link to="/list">All</Link> */}
+        <Link to="/1">Suggested</Link>
+        <Link to="/list">Find a worker</Link>
       </div>
       <div className="right">
         {user ? (
@@ -43,11 +43,19 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <Link to="/">Home</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/register">Register</Link>
-          {/* <Link to="/1">Deal of the day</Link>
-          <Link to="/list">All</Link> */}
+          <Link to="/" onClick={() => setOpen((prev) => !prev)}>
+            Home
+          </Link>
+          <Link to="/login" onClick={() => setOpen((prev) => !prev)}>
+            Login
+          </Link>
+          <Link to="/register" onClick={() => setOpen((prev) => !prev)}>
+            Register
+          </Link>
+          <Link to="/1" onClick={() => setOpen((prev) => !prev)}>
+            <p>Suggested for you</p>
+            </Link>
+          <Link to="/list" onClick={() => setOpen((prev) => !prev)}>Find a worker</Link>
         </div>
       </div>
     </nav>
