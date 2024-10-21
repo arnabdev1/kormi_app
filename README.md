@@ -33,7 +33,7 @@ To run the project locally, follow these steps:
 
 2. **Navigate to the project directory:**:
    ```bash
-   cd kormi
+   cd kormi_app
 
 3. **Install dependencies**:
    ```bash
