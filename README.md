@@ -4,7 +4,7 @@
 
 ## Overview
 
-Kormi is a web application built on the MERN stack that aims to connect domestic workers with verified clients. The platform allows domestic workers to apply for their profiles to be posted and undergo strict verification of their true identity. Once verified, domestic workers can be hired by trusted clients through the website.
+Kormi is a web application built on the MERN stack that aims to connect domestic workers with verified clients. It will ensure competitive pay for workers and a trusted worker for the client. The platform allows domestic workers to apply for their profiles to be posted and undergo strict verification of their true identity. Once verified, domestic workers can be hired by trusted clients through the website.
 
 ### Deployment Link
 
@@ -60,8 +60,8 @@ Contributions are welcome! Please feel free to email me: official.arnabdev@gmail
 
 ## License
 
-This project is open-source and available for use. There is no formal license; please use it as you see fit while respecting the work of the contributors.
+This project is copyrighted by Arnab Dev. While the source code is available, please contact the author for permissions or inquiries regarding usage and distribution.
 
 ## Acknowledgments
 
-- Inspired by the need for trustworthy domestic work solutions.
+- Inspired by the need for trustworthy domestic work solutions in Bangladesh.
