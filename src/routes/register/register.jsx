@@ -1,6 +1,6 @@
 import "./register.scss";
 import { Link } from "react-router-dom";
-
+// New user registration page
 function Register() {
   return (
     <div className="register">

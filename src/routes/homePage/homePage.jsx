@@ -1,6 +1,6 @@
 import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
-
+// Landing page that loads the homepage
 function HomePage() {
   return (
     <div className="homePage">

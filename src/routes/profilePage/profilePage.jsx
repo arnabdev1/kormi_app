@@ -1,7 +1,7 @@
 import Chat from "../../components/chat/Chat";
 import List from "../../components/list/List";
 import "./profilePage.scss";
-
+// Displays the user's profile page after login
 function ProfilePage() {
   return (
     <div className="profilePage">

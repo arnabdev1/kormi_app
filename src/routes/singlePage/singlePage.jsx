@@ -4,9 +4,11 @@ import Map from "../../components/map/Map";
 import { singlePostData, userData } from "../../lib/dummydata";
 import { FaCalendar, FaClock } from "react-icons/fa";
 
+
+// Detailed page for a single item, showing all relevant details and photos
 function SinglePage() {
   return (
-    
+
     <div className="singlePage">
       <div className="details">
         <div className="wrapper">

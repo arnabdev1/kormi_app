@@ -1,5 +1,5 @@
 import "./newPostPage.scss";
-
+// in progress
 function NewPostPage() {
   return (
     <div className="newPostPage">
