@@ -44,7 +44,8 @@ To run the project locally, follow these steps:
    npm run dev
 4. **Open your browser and go to http://localhost:5173/ to view the application.**
 
-# **The src/App.jsx file is the main application component that sets up routing for different pages**
+### Navigation
+**The src/App.jsx file is the main application component that sets up routing for different pages**
 
 ## Current Progress
 
