@@ -45,6 +45,7 @@ To run the project locally, follow these steps:
 4. **Open your browser and go to http://localhost:5173/ to view the application.**
 
 ### Navigation
+
 **The src/App.jsx file is the main application component that sets up routing for different pages**
 
 ## Current Progress
